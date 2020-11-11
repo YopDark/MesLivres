@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">MesLivres</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="books">Livres</a>
+      </li>
+    </ul>
+  </div>
+
+  <ul class="navbar-nav navbar-right">
+    <li class="nav-item" routerLinkActive="active">
+      <a class="nav-link" routerLink="auth/login">Se connecter</a>
+    </li>
+    <li class="nav-item" routerLinkActive="active">
+      <a class="nav-link" routerLink="auth/signup">S'inscrire</a>
+    </li>
+  </ul>
+</nav>
